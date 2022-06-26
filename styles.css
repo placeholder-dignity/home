@@ -6,6 +6,7 @@
 
 @font-face {
   font-family: 'Sora', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 html, body {
@@ -13,12 +14,18 @@ html, body {
   height: 100%;
   text-align: center;
   background-color: #002b2f;
+  scroll-behavior: smooth;
 }
 /* HEADER HOME */
 .header {
   height: 100vh;
   margin: 0;
   z-index: -1;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 /* NAVBAR */
@@ -74,6 +81,29 @@ html, body {
     height: 100%;
 }
 
+.payoff {
+  font-family: 'Montserrat';
+  font-weight: regular;
+  color: #fff;
+  font-size: 3vw;
+  text-align: center;
+  line-height: auto;
+  padding-bottom: 3vh;
+  position: relative;
+  top: 35%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  /* position: absolute;
+  top: 6vh;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center; */
+}
+
+
 video {
   position: absolute;
    top: -9999px;
@@ -87,7 +117,7 @@ video {
    height: auto;
 }
 
-/* SCRITTA CENTRALE VILLA TATUM */
+/* SCRITTA CENTRALE LOGO */
 img {
   width: 25%;
   height: auto;
@@ -106,7 +136,7 @@ img {
     /* mix-blend-mode: difference; */
     width: 70%;
     position: relative;
-    top: 50%;
+    top: 47%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -310,7 +340,7 @@ padding-top: 6vh;}
 }
 
 @media screen and (max-height: 600px) {
-  .block  {height: 120vh}
+  .block  {height: 100vh}
   .block2 {height: 55vh}
 }
 
@@ -333,7 +363,7 @@ padding-top: 6vh;}
     }
 
     .header {height: 100%}
-    .block  {height: 65vh}
+    .block  {height: 100vh}
     .block2 {height: 33%}
 
     .scroll { display: none }
@@ -344,9 +374,26 @@ padding-top: 6vh;}
         font-size: 6vw;
 
     }
+
+    .payoff{
+      font-family: 'Montserrat';
+      font-weight: regular;
+      color: #fff;
+      font-size: 4vw;
+      text-align: center;
+      line-height: auto;
+      padding-bottom: 3vh;
+      position: relative;
+      top: 45%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+
     .logo {
         /* mix-blend-mode: difference; */
-        width: 90%;
+        width: 100%;
+        top: 49%;
 
     }
     .nft-text { font-size: 6vw;
@@ -372,7 +419,7 @@ padding-top: 6vh;}
     .divvv { width: 75vw;}
     .paragrafo {
       font-size: 4vw;
-      padding-bottom: 2vh;
+      padding-bottom: 10vh;
       padding-top: 2vh;
 
     }
