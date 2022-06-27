@@ -217,8 +217,8 @@ img {
 
   border-radius: 7px;
   background: #002b2f;
-  box-shadow: 13px 13px 26px #00b0c0,
-             -13px -13px 26px #00b0c0;
+  /* box-shadow: 13px 13px 26px #00b0c0,
+             -13px -13px 26px #00b0c0; */
 
 }
 
