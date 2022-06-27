@@ -23,7 +23,7 @@ html, body {
   z-index: -1;
 }
 
-a {
+.scroll a {
   color: white;
   text-decoration: none;
 }
@@ -49,7 +49,7 @@ a {
 .topnav a {
   float: left;
   width: 30vw;
-  color: white;
+  color: #00464D;
   text-decoration: none;
   padding: 0.5em;
   letter-spacing: 2px;
@@ -160,7 +160,7 @@ img {
 
 /* BLOCCO 1 */
 .block {
-  height: 100%;
+  height: 92%;
   margin: 0;
   position: relative;
   background-color: #002b2f;
@@ -236,6 +236,7 @@ img {
   width: 31vw;
   height: auto;
   position: relative;
+  padding-top: 3vw;
   text-align: center;
   align-content: center;
   margin: auto;
@@ -345,18 +346,18 @@ padding-top: 6vh;}
 }
 
 @media screen and (max-height: 800px) {
-  .blocl {height: 90vh}
-  .content {padding-top: 4vh;
-  padding-bottom: 12vh}
-  .paragrafo { padding-bottom: 3vh;
+  .block {height: 70vh}
+  .content {padding-top: 5vh;
+  padding-bottom: 2vh}
+  .paragrafo { padding-bottom: 2vh;
   padding-top: 1vh}
 }
 
 /* Phone */
 @media screen and (max-width: 600px) {
     .topnav a {
-      width: 100vw;
-      font-size: 1vw;
+      width: 30vw;
+      font-size: 2vw;
       text-align: center;
       padding: 0.2em;
       float: center;
