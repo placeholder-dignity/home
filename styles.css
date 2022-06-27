@@ -224,12 +224,24 @@ img {
 
 .paragrafo {
   font-family: 'Sora';
+  font-weight: 100;
+  color: #fff;
+  font-size: 1.2vw;
+  text-align: center;
+  line-height: auto;
+  padding-bottom: 3vh;
+  padding-top: 10vh;
+}
+
+.about {
+  font-family: 'Sora';
   font-weight: light;
   color: #fff;
   font-size: 1.2vw;
   text-align: center;
   line-height: auto;
   padding-bottom: 3vh;
+  padding-top: 5vh;
 }
 
 .divvv {
@@ -350,7 +362,7 @@ padding-top: 6vh;}
   .content {padding-top: 5vh;
   padding-bottom: 2vh}
   .paragrafo { padding-bottom: 2vh;
-  padding-top: 1vh}
+  padding-top: 50vh}
 }
 
 /* Phone */
@@ -421,7 +433,7 @@ padding-top: 6vh;}
     .paragrafo {
       font-size: 4vw;
       padding-bottom: 10vh;
-      padding-top: 2vh;
+      padding-top: 50vh;
 
     }
 
